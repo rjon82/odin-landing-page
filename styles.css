@@ -37,6 +37,7 @@ a {
 
 .hero {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 150px 100px 150px;
     background-color: #1F2937;
@@ -46,6 +47,7 @@ a {
     display: flex;
     flex-direction: column;
     flex: 0 1 450px;;
+    margin-right: 20px;
  
 }
 
@@ -90,6 +92,12 @@ button {
     flex-direction: column;
     align-items: center;
     margin: 10px 200px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .grouping {
