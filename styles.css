@@ -1,0 +1,38 @@
+body {
+ margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+  
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+    margin-left: auto;
+    padding-right: 200px;
+
+}
+
+.logo {
+    font-size: 24px;
+    padding-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #bbbbbb;
+}
