@@ -157,3 +157,45 @@ h2 {
     font-weight:bolder;
     font-size: 24px;
 }
+
+/* container four*/
+
+.call {
+    display: flex;
+    justify-content: center;
+    
+}
+.background {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+    width: 800px;
+    padding: 20px 80px;
+    gap: 15px;
+}
+
+.misc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+.action {
+    margin-bottom: -15px; 
+}
+
+.action-button {
+    border: 1px solid #F9FAF8;
+    align-self: center;
+}
+
+/* margin*/
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+}
