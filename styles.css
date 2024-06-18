@@ -39,14 +39,17 @@ a {
 
 .hero {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 10px 150px 100px 150px;
     background-color: #1F2937;
+    gap: 10px;
 }
 
 .signup {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     flex: 0 1 450px;;
     margin-right: 20px;
@@ -80,10 +83,7 @@ button {
 }
 
 .pic-one {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
+    margin-left: -20px;
     height: 250px;
     width: 450px;
     opacity: .8;
